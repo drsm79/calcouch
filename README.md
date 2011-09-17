@@ -1,10 +1,11 @@
 CalCouch
-------------
+============
 
-A CouchApp that produces an iCal compatible feed via a view and a list function
+A CouchApp that produces an iCal compatible feed via a view and a list function.
 
 Data format
-============
+------------
+
 ### Events:
 
   {
@@ -19,6 +20,6 @@ Data format
   }
 
 Todo
-============
+------------
  * other calendar objects (todo, journal etc)
  * GUI
