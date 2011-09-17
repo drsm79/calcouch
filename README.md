@@ -8,7 +8,7 @@ Data format
 
 ### Events:
 
-  {
+    {
       "type": "event",
       "timestamp": "20110202T000000Z",
       "organiser": "Chloe",
@@ -17,7 +17,7 @@ Data format
       "summary": "Chloe's Birthday",
       "description":"The day Chloe was born",
       "recur":{"FREQ":"YEARLY"}
-  }
+    }
 
 Todo
 ------------
