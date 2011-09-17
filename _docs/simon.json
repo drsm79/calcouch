@@ -1,0 +1,9 @@
+{
+    "type": "event",
+    "timestamp": "20101204T000000Z",
+    "organiser": "Simon",
+    "start": "20101204",
+    "end": "20101204",
+    "summary": "Simon's Birthday",
+    "description":"The day Simon was born"
+}

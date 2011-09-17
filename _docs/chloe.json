@@ -1,0 +1,10 @@
+{
+    "type": "event",
+    "timestamp": "20110202T000000Z",
+    "organiser": "Chloe",
+    "start": "20110202",
+    "end": "20110202",
+    "summary": "Chloe's Birthday",
+    "description":"The day Chloe was born",
+    "recur":{"FREQ":"YEARLY"}
+}

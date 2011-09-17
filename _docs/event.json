@@ -1,0 +1,9 @@
+{
+    "type": "event",
+    "timestamp": "19970714T170000Z",
+    "organiser": "CN=John Doe:MAILTO:john.doe@example.com",
+    "start": "19970714T170000Z",
+    "end": "19970715T035959Z",
+    "summary": "Thing that is happening",
+    "description":"Some sweet stuff is going to happen..."
+}
