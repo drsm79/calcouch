@@ -1,9 +1,35 @@
 <html>
 <head>
   <title>CalCouch</title>
+  <style>
+  body {
+    margin-top: 1.0em;
+    background-color: #fefefe;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #302e5f;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 3.8em;
+    font-weight: 100;
+  }
+  li, a {
+    color: #302e5f;
+    font-family: Helvetica, Arial;
+  }
+  #container {
+    margin: 0 auto;
+    width: 700px;
+  }
+  </style>
+
+</head>
 <body>
-  <h1>Welcome to CalCouch</h1>
-  <h2>Views</h2>
+  <div id="container">
+    <h1>Welcome to CalCouch</h1>
+    <h2>Views</h2>
     <ul>
       <li><a href="_view/all_by_date">all_by_date full reduce</a></li>
       <li><a href="_view/all_by_date?group=true">all_by_date grouped</a></li>
@@ -17,15 +43,16 @@
       <li><a href="_view/todo_by_date?group=true">todo_by_date grouped</a></li>
       <li><a href="_view/todo_by_date?reduce=false">todo_by_date no reduce</a></li>
     </ul>
-  <h2>Lists</h2>
+    <h2>Lists</h2>
     <ul>
       <li><a href="_list/cal/all_by_date?reduce=false">all_by_date</a></li>
       <li><a href="_list/cal/events_by_date?reduce=false">events_by_date</a></li>
       <li><a href="_list/cal/todo_by_date?reduce=false">todo_by_date</a></li>
     </ul>
-  <h2>Shows</h2>
+    <h2>Pages</h2>
     <ul>
       <li></li>
     </ul>
+  </div>
 </body>
 </html>
