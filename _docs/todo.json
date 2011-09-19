@@ -1,3 +1,17 @@
 {
-    "type": "todo"
+    "type": "todo",
+    "timestamp": "20110714T170000Z",
+    "organiser": "CN=John Doe:MAILTO:john.doe@example.com",
+    "due": "20110714T170000Z",
+    "summary": "Thing that needs doing",
+    "description":"Some sweet stuff is going to happen...",
+    "attendee": "PARTSTAT=ACCEPTED:MAILTO:jqpublic@example.com",
+    "status":"NEEDS-ACTION",
+    "alarm": {
+        "ACTION":"AUDIO",
+        "TRIGGER":"19980403T120000",
+        "ATTACH":"FMTTYPE=audio/basic:http://example.com/pub/audio-files/ssbanner.aud",
+        "REPEAT":4,
+        "DURATION":"PT1H"
+    }
 }
